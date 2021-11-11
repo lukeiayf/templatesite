@@ -240,9 +240,17 @@ width: 100px;
   opacity: 1;
   top: 0;
   left: 100%;
+  /*left: 100%;*/
   visibility: visible;
 }
 
+#deep-dropdown{
+  opacity: 1;
+  top: 0;
+  left: 100%;
+  /*left: 100%;*/
+  visibility: visible;
+}
 
 
 @media (max-width: 1366px) {
@@ -2100,6 +2108,7 @@ section {
 
 #footer .footer-top .footer-links {
   margin-bottom: 30px;
+  align-self: right;
 }
 
 #footer .footer-top .footer-links ul {
