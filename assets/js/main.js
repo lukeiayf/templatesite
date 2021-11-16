@@ -4,8 +4,12 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+
+
 (function() {
   "use strict";
+
+  /*button link*/
 
   /**
    * Easy selector helper function
@@ -169,5 +173,21 @@
       mirror: false
     })
   });
+
+  /*button link*/
+
+  document.getElementById("btn-read-more").onclick = function () {
+    location.href = "services.html"
+  };
+
+  document.getElementById("btn-read-more-about-us").onclick = () =>{
+    location.href = "about.html"
+  };
+
+  
+
+
+
+/**/
 
 })()
