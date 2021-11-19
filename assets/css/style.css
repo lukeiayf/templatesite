@@ -75,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #285D72;
+  background: #123041;
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
@@ -692,6 +692,7 @@ section {
 .services .icon-box:hover {
   border-color: #fff;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
+  background-color: #123041;
 }
 
 .services .iconbox-blue i {
@@ -2091,6 +2092,65 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Ferramentas
+--------------------------------------------------------------*/
+
+.btn-indice{
+  background: #285D72;
+  color: #fff;
+  border: none;
+  display: block;
+  letter-spacing: 1px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 900;
+  font-family: "Roboto", sans-serif;
+  transition: color .15s 
+  ease-in-out,123041 .15s 
+  ease-in-out,123041 .15s 
+  ease-in-out,box-shadow .15s 
+  ease-in-out;
+}
+
+.btn-indice:hover{
+  background-color: #123041;
+}
+
+.btn-indice:focus{
+  background-color: #123041;
+  border-color: #285D72; 
+}
+
+.container-ferramenta{
+  border:2px solid #285D72;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px rgba(0, 0, 0, 0.4) ;
+}
+
+.anchor::before{
+  content:"";
+  display:block;
+  height:100px; /* fixed header height*/
+  margin:-100px 0 0; /* negative fixed header height */
+}
+
+.div-laptop{
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.paragrafo-ferramenta{
+  
+  padding-right: 20px;
+  text-align: justify; 
+  text-justify: inner-word;
+}
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
@@ -2101,7 +2161,7 @@ section {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #285D72;
+  background: #123041;
 }
 
 #footer .footer-top .footer-contact {
@@ -2213,7 +2273,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #285D72;
+  background: #123041;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
