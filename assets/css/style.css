@@ -2081,7 +2081,12 @@ section {
   
   padding-right: 20px;
   text-align: justify; 
-  text-justify: inner-word;
+  text-justify: inter-word;
+  margin-top: 2rem;
+}
+
+.paragrafo-ferramenta > h3{
+  text-align:left;
 }
 
 /*--------------------------------------------------------------
