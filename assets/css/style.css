@@ -82,6 +82,22 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
+.header-noscroll{
+  background: none;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.header-scroll{
+  background: #123041;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+} 
+
 #header .logo {
   font-size: 28px;
   margin: 0;
@@ -103,6 +119,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header .logo img {
+  max-height: 100px;
+}
+
+#header-index .logo {
+  font-size: 28px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+#header-index .logo a {
+  color: #fff;
+  
+}
+
+#header-index .logo a span {
+  color: #fff;
+  /* color: #1bbd36; */
+}
+
+#header-index .logo img {
   max-height: 100px;
 }
 
@@ -389,27 +429,39 @@ width: 100px;
 #hero .carousel-container {
   display: flex;
   align-items: flex-end;
-  justify-content: center;
+  justify-content: left;
   position: absolute;
-  bottom: 60px;
+  bottom: 290px;
   top: 70px;
   left: 55px;
   right: 55px;
 }
 
 #hero .carousel-content {
-  background: rgba(4, 4, 4, 0.7);
+  background: rgba(4, 4, 4, 0.0);
   padding: 20px;
   color: #fff;
-  border-top: 5px solid #13132A;
+}
+
+#hero .carousel-content h1{
+  color: #fff;
+  margin-bottom: 20px;
+  font-size: 50px;
+  font-weight: 800;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.21em;
+  letter-spacing: -1.2px;
 }
 
 #hero .carousel-content h2 {
   color: #fff;
   margin-bottom: 20px;
   font-size: 28px;
-  font-weight: 700;
+  font-weight: 300;
 }
+
 
 #hero .btn-get-started {
   font-family: "Roboto", sans-serif;
@@ -537,6 +589,7 @@ section {
 
 .section-bg {
   background-color: #f7f7f7;
+  
 }
 
 .section-title {
@@ -621,6 +674,15 @@ section {
   .breadcrumbs ol li {
     display: inline-block;
   }
+}
+
+/*--------------------------------------------------------------
+# Solutions
+--------------------------------------------------------------*/
+
+.row .card:hover{
+  background-color: #123041 ;
+  transition: ease-in-out 0.5s;
 }
 
 /*--------------------------------------------------------------
@@ -729,6 +791,36 @@ section {
   font-weight: 900;
   font-family: "Roboto", sans-serif;
 }
+/*--------------------------------------------------------------
+# About-us
+--------------------------------------------------------------*/
+
+.div-valores{
+  text-align: center;
+  text-justify: inter-word;
+  text-align: center;
+  padding: 70px 20px 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background : -moz-linear-gradient(-6.85% 106.85% 45deg,rgba(255, 255, 255, 1) 0%,rgba(235, 235, 235, 1) 60%,rgba(211, 211, 211, 1) 100%);
+  background : -webkit-linear-gradient(45deg, rgba(255, 255, 255, 1) 0%, rgba(235, 235, 235, 1) 60%, rgba(211, 211, 211, 1) 100%);
+  background : -webkit-gradient(linear,-6.85% 106.85% ,94.29% 5.71% ,color-stop(0,rgba(255, 255, 255, 1) ),color-stop(0.6,rgba(235, 235, 235, 1) ),color-stop(1,rgba(211, 211, 211, 1) ));
+  background : -o-linear-gradient(45deg, rgba(255, 255, 255, 1) 0%, rgba(235, 235, 235, 1) 60%, rgba(211, 211, 211, 1) 100%);
+  background : -ms-linear-gradient(45deg, rgba(255, 255, 255, 1) 0%, rgba(235, 235, 235, 1) 60%, rgba(211, 211, 211, 1) 100%);
+  /* -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#D3D3D3' ,GradientType=0)"; */
+  background : linear-gradient(45deg, rgba(255, 255, 255, 1) 0%, rgba(235, 235, 235, 1) 60%, rgba(211, 211, 211, 1) 100%);
+  border-radius: 15px;
+  box-shadow: 1px 1px 2px black;
+  width: 30%;
+  margin-left: 30px;
+}
+
+.foto-sobre{
+  width: 100%;
+  height: 700px;
+}
+
+
+
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/

@@ -60,6 +60,22 @@
     onscroll(document, toggleBacktotop)
   }
 
+
+  var headernoscroll = window.document.querySelector('header.header-noscroll')
+
+  if (headernoscroll) {
+    function toggleHeaderScroll() {
+      
+      if (window.scrollY > 100) {
+        headernoscroll.classList.add('header-scroll');
+      } else {
+        headernoscroll.classList.remove('header-scroll');
+      }
+    }
+    window.addEventListener('load', toggleHeaderScroll)
+    onscroll(document, toggleHeaderScroll)
+  }
+
   /**
    * Mobile nav toggle
    */
@@ -184,7 +200,14 @@
     location.href = "about.html"
   };
 
-  
+  /*header change on scroll*/
+
+  // window.addEventListener('scroll', function(){
+  //   let header = document.querySelector('.header-noscroll');
+
+  //   header.classList.toggle('header-scroll');
+  // })
+
 
 
 
