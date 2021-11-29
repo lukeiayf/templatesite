@@ -681,8 +681,10 @@ section {
 --------------------------------------------------------------*/
 
 .row .card:hover{
-  background-color: #123041 ;
-  transition: ease-in-out 0.5s;
+  border-color: #123041;
+  transform: scale(1.1);
+  z-index: 999;
+  transition: ease-in-out 0.3s;
 }
 
 /*--------------------------------------------------------------
@@ -1012,7 +1014,7 @@ section {
 
 .clients .client-logo img {
   transition: all 0.3s ease-in-out;
-  height: 36px;
+  height: 70px;
   filter: grayscale(100%);
 }
 
